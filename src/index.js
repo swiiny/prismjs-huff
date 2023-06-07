@@ -1,5 +1,5 @@
 // huff grammar
-const { defineHuffGrammar } = require('./huff.js');
+const defineHuffGrammar = require('./huff.js');
 
 module.exports = function (hljs) {
 	hljs.registerLanguage('huff', defineHuffGrammar);

@@ -1,4 +1,4 @@
-export function defineHuffGrammar(hljs) {
+function defineHuffGrammar(hljs) {
 	return {
 		case_insensitive: true,
 		keywords: {
@@ -23,3 +23,5 @@ export function defineHuffGrammar(hljs) {
 		]
 	};
 }
+
+module.exports = defineHuffGrammar;
