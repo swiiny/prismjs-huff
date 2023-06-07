@@ -1,0 +1,31 @@
+{
+	"name": "highlightjs-huff",
+	"private": false,
+	"version": "1.0.0",
+	"description": "Huff syntax highlighting for highlight.js",
+	"main": "src/index.js",
+	"types": "src/index.d.ts",
+	"files": [
+		"dist",
+		"src"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/JeremyTheintz/highlightjs-huff.git"
+	},
+	"keywords": [
+		"Huff",
+		"highlight.js",
+		"highlightjs",
+		"syntax"
+	],
+	"author": "Jeremy Theintz",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/JeremyTheintz/highlightjs-huff/issues"
+	},
+	"homepage": "https://github.com/JeremyTheintz/highlightjs-huff",
+	"devDependencies": {
+		"highlight.js": "^11.8.0"
+	}
+}
