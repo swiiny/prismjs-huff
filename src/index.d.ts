@@ -1,4 +1,5 @@
-declare module 'highlightjs-huff' {
-	export default function (hljs: HLJSApi): void;
-	export const huff: LanguageFn;
+declare module 'prismjs-huff' {
+	const huff: (Prism: any) => void;
+
+	export default huff;
 }
