@@ -1,5 +1,5 @@
 {
-	"name": "prism-huff",
+	"name": "prismjs-huff",
 	"private": false,
 	"version": "1.0.0",
 	"description": "Huff syntax highlighting for prism.js",
@@ -8,7 +8,6 @@
 	"files": [
 		"src"
 	],
-	"type": "module",
 	"repository": {
 		"type": "git",
 		"url": "git+ssh://git@github.com/JeremyTheintz/prismjs-huff.git"
