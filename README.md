@@ -1,23 +1,22 @@
-# `highlightjs-huff`
+# `prismjs-huff`
 
-Huff syntax highlighting for [highlight.js](https://highlightjs.org/).
+[Huff](https://huff.sh/) syntax highlighting for [react-syntax-highlighter](https://github.com/react-syntax-highlighter/react-syntax-highlighter#readme).
+
+Huff is a low level assembly language for the EVM. See [documatation](https://docs.huff.sh/)
 
 ## Installation
 
 ```bash
-npm install highlightjs-huff
+npm install prismjs-huff
 ```
-
-> Please note that this package requires `highlight.js` as a peer dependency.
 
 ## Usage
 
 ```javascript
-import hljs from 'highlight.js';
-import huff from 'highlightjs-huff';
+import { PrismLight } from 'react-syntax-highlighter';
+import huff from 'prismjs-huff';
 
-hljs.registerLanguage('huff', huff);
-hljs.highlightAll();
+PrismLight.registerLanguage('huff', huff);
 ```
 
 ## License
