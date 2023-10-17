@@ -1,7 +1,7 @@
 {
 	"name": "prismjs-huff",
 	"private": false,
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"description": "Huff syntax highlighting for prism.js",
 	"main": "src/index.js",
 	"types": "src/index.d.ts",
@@ -10,7 +10,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@github.com/JeremyTheintz/prismjs-huff.git"
+		"url": "git+ssh://git@github.com/swiiny/prismjs-huff.git"
 	},
 	"keywords": [
 		"Huff",
@@ -22,7 +22,7 @@
 	"author": "Jeremy Theintz",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/JeremyTheintz/prismjs-huff/issues"
+		"url": "https://github.com/swiiny/prismjs-huff/issues"
 	},
-	"homepage": "https://github.com/JeremyTheintz/prismjs-huff"
+	"homepage": "https://github.com/swiiny/prismjs-huff"
 }
